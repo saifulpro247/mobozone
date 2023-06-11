@@ -15,6 +15,31 @@ ul, li{
 	padding: 0;
 	list-style: none;
 }
+
+
+/*section css */
+.section_gap{
+	padding: 50px 0;
+}
+.section_area{
+	margin-bottom: 50px;
+}
+.section_area .section_title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+.section_area .sub_title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #242424;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+
 /* various style in ui */
 
 .primary_color{}
@@ -39,10 +64,10 @@ header.site_header {
 
 .mobozone_main_menu ul li a {
     display: block;
-    margin-right: 10px;
+    margin-right: 15px;
     color: #6F6F6F;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     transition: .3s;
     border-bottom: 1px solid transparent;
 
@@ -137,4 +162,35 @@ header.site_header {
 }
 .mobozone_hero_slider .slider .owl-dots button.owl-dot.active span {
     width: 24px;
+}
+
+/* featured category section css */
+
+.single_cat_section {
+    background-color: rgba(245, 245, 245, 1);
+    padding: 50px;
+    border-radius: 16px;
+    text-align: center;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+.single_cat_section:hover{
+	border: 1px solid #E42546;
+    box-shadow: 0px 97px 39px rgba(0, 0, 0, 0.01), 0px 54px 33px rgba(0, 0, 0, 0.03), 0px 24px 24px rgba(0, 0, 0, 0.04), 0px 6px 13px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.single_cat_section a.cat_link img {
+    display: inline-block;
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.single_cat_section a.cat_link span {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #2C3454;
+    margin-top: 20px;
 }
