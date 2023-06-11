@@ -21,6 +21,9 @@ ul, li{
 .section_gap{
 	padding: 50px 0;
 }
+.section_gap_bottom_decrease_20{
+	padding-bottom: 20px;
+}
 .section_area{
 	margin-bottom: 50px;
 }
@@ -193,4 +196,64 @@ header.site_header {
     font-weight: 600;
     color: #2C3454;
     margin-top: 20px;
+}
+
+/* featured product */
+
+.single_product_item_box {
+    border: 1px solid #EDEDED;
+    border-radius: 16px;
+    width: 17.33%;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: .3s;
+    margin-bottom: 30px;
+}
+.single_product_item_box:hover{
+	box-shadow: 0px 97px 39px rgba(0, 0, 0, 0.01), 0px 54px 33px rgba(0, 0, 0, 0.03), 0px 24px 24px rgba(0, 0, 0, 0.04), 0px 6px 13px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+	border: 1px solid #E42546;
+}
+.single_product_img {
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 16px 16px 0 0;
+}
+.single_product_meta {
+    text-align: left;
+    padding: 15px;
+}
+.single_product_meta ul {
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 10px;
+}
+.single_product_meta a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 10px;
+    font-family: 'HK Grotesk';
+    display: inline-block;
+}
+.single_product_meta ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'HK Grotesk';
+}
+.single_product_meta ul li:first-child {
+	font-weight: 700;
+	color: #222;
+}
+.single_product_meta ul li:last-child  {
+    margin-right: 0;
+}
+.single_product_meta span {
+    color: #E42546;
+    font-weight: 600;
+    font-family: 'HK Grotesk';
+    font-size: 18px;
+    margin-top: 10px;
+    display: block;
 }
