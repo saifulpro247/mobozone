@@ -1,0 +1,140 @@
+/*this is main css file*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #242424;
+	font-weight: 400;
+	background: #fff;
+	line-height: 24px;
+}
+a, a:hover, a:visited, a:focus{
+	text-decoration: none;
+}
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* various style in ui */
+
+.primary_color{}
+.secondary_color{}
+
+/*menu css*/
+
+
+header.site_header {
+    padding: 30px 0;
+}
+.header_border_bottom{
+	border-bottom: 1px solid rgba(237, 237, 237, 1);
+}
+.mobozone_main_menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mobozone_main_menu ul li {display: inline-block;}
+
+.mobozone_main_menu ul li a {
+    display: block;
+    margin-right: 10px;
+    color: #6F6F6F;
+    font-weight: 600;
+    font-size: 18px;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+
+}
+.mobozone_main_menu ul li:hover a {
+    color: #E42546;
+    border-bottom: 1px solid rgba(238, 118, 139, 0.4);
+}
+.mobozone_main_menu ul li:last-child a, .mobozone_user_search ul li:last-child a{
+	margin-right: 0;
+}
+.mobozone_user_search ul li {
+    display: inline-block;
+}
+
+.mobozone_user_search ul li a {
+    font-size: 18px;
+    color: rgba(114, 114, 114, 1);
+    display: block;
+    margin-right: 15px;
+}
+/* Hero Slider */
+.mobozone_hero_slider{
+	margin: 60px 0;
+}
+.mobozone_hero_slider .slider_background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ddd;
+    border-radius: 16px;
+}
+
+.mobozone_hero_slider .mobozone_single_slider_content {
+    padding: 40px 80px;
+}
+.mobozone_slider_text p , .mobozone_slider_text span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: 'HK Grotesk';
+    margin-bottom: 30px;
+}
+.mobozone_slider_text h2 {
+    font-size: 63px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'HK Grotesk';
+    margin-bottom: 30px;
+}
+.mobozone_slider_text span{
+	margin-bottom: 0;
+}
+.mobozone_hero_slider .slider .owl-nav {
+    position: absolute;
+    top: 40%;
+    left: -45px;
+    width: 100%;
+}
+.mobozone_hero_slider .slider .owl-nav button {
+    background: #FFF2F4 !important;
+    height: 85px;
+    width: 85px;
+    border: 6px solid #fff !important;
+    border-radius: 50px;
+}
+.mobozone_hero_slider .slider .owl-nav button i {
+    font-size: 40px;
+    color: #414141;
+}
+.mobozone_hero_slider .slider .owl-nav button.owl-next {
+    position: absolute;
+    right: -8%;
+    left: auto;
+}
+.mobozone_hero_slider .slider .owl-dots {
+    position: absolute;
+    bottom: 35px;
+    left: 7%;
+    z-index: 1;
+}
+
+.mobozone_hero_slider .slider .owl-dots button span {
+    background-color: #fff;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    margin: 0 2px;
+    border-radius: 50px;
+}
+.mobozone_hero_slider .slider .owl-dots button.owl-dot.active span {
+    width: 24px;
+}
