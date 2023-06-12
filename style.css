@@ -257,3 +257,51 @@ header.site_header {
     margin-top: 10px;
     display: block;
 }
+
+/* single blog */
+
+.single_blog_box a img {
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.single_blog_meta .blog_date {
+    font-size: 14px;
+    font-weight: 500;
+    color: #242424;
+    margin-bottom: 15px;
+    display: block;
+    font-family: 'Montserrat';
+}
+
+.single_blog_meta a h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 15px;
+    line-height: 30px;
+    font-family: 'Montserrat';
+}
+
+.single_blog_meta p.blog_excerpt {
+    font-size: 16px;
+    font-weight: 500;
+    color: #242424;
+    line-height: 26px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+}
+
+
+.single_blog_meta a.blog_readmore_btn {
+	font-size: 16px;
+	color: #05ABF3;
+	text-transform: uppercase;
+	font-weight: 500;
+	transition: .3s;
+	font-family: 'Montserrat';
+}
+.single_blog_meta a.blog_readmore_btn:hover{
+	color: #E42546;
+	letter-spacing: 1.3;
+}
