@@ -118,5 +118,8 @@
 	.single_pd_description {
 		padding: 20px 30px;
 	}
+	.site_mobile_menu, .user_profile, .search_box{
+		right: 50px;
+	}
 
 }

@@ -21,14 +21,14 @@
 	<header class="site_header header_border_bottom">
 		<div class="mobozone_menu_area">
 			<div class="container">
-				<div class="row d-flex align-items-center">
-					<div class="col-md-2 col-lg-3">
+				<div class="row d-flex align-items-center justify-content-sm-between">
+					<div class="col-md-2 col-lg-3 col-sm-6 col-6">
 						<div class="site_logo">
 							<a href="#"><img src="assets/img/logo.png" alt="logo"></a>
 						</div>
 					</div>
-					<div class="col-md-8 col-lg-6">
-						<div class="mobozone_main_menu d-flex justify-content-center justify-content-md-end">
+					<div class="col-md-8 col-lg-6 d-none d-md-block">
+						<div class="mobozone_main_menu  d-flex justify-content-md-end">
 							<ul>
 								<li><a href="">Home</a></li>
 								<li><a href="">Menu</a></li>
@@ -38,12 +38,37 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-2 col-lg-3">
-						<div class="mobozone_user_search d-flex justify-content-end">
+					<div class="col-md-2 col-lg-3 col-sm-6 col-6 d-flex justify-content-end">
+						<div class="mobozone_user_search">
 							<ul>
-								<li><a href="#"><i class="bi bi-person"></i></a></li>
-								<li><a href="#"><i class="bi bi-search"></i></a></li>
+								<li><a class="profile" href="#"><i class="bi bi-person"></i></a></li>
+								<li><a class="search" href="#"><i class="bi bi-search"></i></a></li>
+								<li><a class="mobile_menu d-md-none" id="menu" href="#"><i class="bi bi-list"></i></a></li>
 							</ul>
+
+							<div class="user_profile">
+								<p class="fw-bold">Hi! Asifur Rahman </p>
+								<ul>
+									<li><a href="#">Profile</a></li>
+									<li><a href="#">Change Password</a></li>
+									<li><a href="#">Log Out</a></li>
+								</ul>
+							</div>
+							<div class="search_box">
+								<form action="#">
+									<input type="text" name="search" placeholder="Search......">
+									<button type="submit"><i class="bi bi-search"></i></button>
+								</form>
+							</div>
+							<div class="site_mobile_menu">
+								<ul class="">
+									<li><a href="">Home</a></li>
+									<li><a href="">Menu</a></li>
+									<li><a href="">Service</a></li>
+									<li><a href="">Upcoming</a></li>
+									<li><a href="">Blog</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -53,652 +78,227 @@
 
 	<!-- main content -->
 	<main>
-
-		<!-- product description area -->
-		<article class="blog_description section_gap">
+		<!-- blog breadcrumb section -->
+		<section class="site_breadcrumb position-relative breadcrumb_bg">
 			<div class="container">
-				<div class="row d-flex justify-content-center">
-					<div class="col-lg-4 mb-5">
-						<div class="blog_title text-center">
-							<h3>OnePlus Nord CE3 5G</h3>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="blog_description">
-							<div class="row">
-								<div class="col-lg-6 mb-4">
-									<div class="single_pd_description box_bg signal ">
-										<div class="netwark_bar item-box">
-											<img src="assets/img/signal.png" alt="">
-										</div>
-										<div class="item_desc">
-											<h4 class="item_title">Network</h4>
-											<p class="text-uppercase">GSM / cdma / HSPA / EVDO LTE / 5G</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 mb-4">
-									<div class="single_pd_description box_bg launch_date">
-										<div class="netwark_bar item-box">
-											<img src="assets/img/calendar.png" alt="">
-										</div>
-										<div class="item_desc">
-											<h4 class="item_title">Launch</h4>
-											<p class="text-capitalize">2022, February 09</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-4 mb-4">
-									<div class="blog_box_2">
-										<div class="single_box_content box_bg">
-											<div class="launcher item-box-2">
-												<img src="assets/img/android.png" alt="">
-											</div>
-											<div class="item_desc">
-												<h4 class="item_title">Android</h4>
-												<p class="text-capitalize">Android 12</p>
-											</div>
-										</div>
-										<div class="single_box_content box_bg mt-4">
-											<div class="launcher item-box-2">
-												<img src="assets/img/sd-card.png" alt="">
-											</div>
-											<div class="item_desc">
-												<h4 class="item_title">Memory</h4>
-												<p class="text-capitalize">128gb Rom <br> 6gb ram</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 mb-4">
-									<div class="blog_box_3 box_bg">
-										<div class="blog_main_image">
-											<img src="assets/img/phone-2.png" alt="">
-											<h4 class="text-center mt-4">Samsung Galaxy S24 Ultra</h4>
-										</div>
-									</div>
-								</div>
-								
-								<div class="col-lg-4">
-									<div class="blog_box_2">
-										<div class="single_box_content box_bg">
-											<div class="launcher item-box-2">
-												<img src="assets/img/camera.png" alt="">
-											</div>
-											<div class="item_desc">
-												<h4 class="item_title">Main Camera</h4>
-												<p class="text-capitalize">108 MP, f/1.8 <br> 23mm (wide)</p>
-											</div>
-										</div>
-										<div class="single_box_content box_bg mt-4 mb-4">
-											<div class="launcher item-box-2">
-												<img src="assets/img/selfie_camera.png" alt="">
-											</div>
-											<div class="item_desc">
-												<h4 class="item_title">Selfie Camera</h4>
-												<p class="text-capitalize">40 MP, f/2.2
-												<br>26mm (wide)</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="single_pd_description box_bg signal mb-4">
-										<div class="netwark_bar item-box">
-											<img src="assets/img/display.png" alt="">
-										</div>
-										<div class="item_desc">
-											<h4 class="item_title">Display</h4>
-											<p class="text-uppercase">
-												AMOLED 2X, 120Hz, HDR10+ 6.8 inches
-												1440 x 3088 pixels, 19.3:9 ratio</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="single_pd_description box_bg launch_date">
-										<div class="netwark_bar item-box">
-											<img src="assets/img/battery.png" alt="">
-										</div>
-										<div class="item_desc">
-											<h4 class="item_title">Battery</h4>
-											<p class="text-capitalize">Li-Ion 5000 mAh, non-removable
-												45W wired, PD3.0</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- pd description -->
-							<div class="row mt-5">
-								<div class="col-4">
-									<div class="pd_details mb-4 text-uppercase fw-bold"><h4>All Information</h4></div>
-								</div>
-								<div class="col-lg-12">
-									<table class="table table-bordered custom-table table-hover mb-2">
-										<tbody>
-											<tr class="spec_table">
-												<th rowspan="6" scope="row">Network</th>
-												<td class="ttl">Technology</td>
-												<td class="nfo">GSM / HSPA / LTE / 5G</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">2G bands</td>
-												<td class="nfo" >GSM 850 / 900 / 1800 / 1900 - SIM 1 &amp; SIM 2</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">3G bands</td>
-												<td class="nfo">HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">4G bands</td>
-												<td class="nfo">1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 26, 28, 38, 40, 41, 66</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">5G bands</td>
-												<td class="nfo">1, 3, 5, 7, 8, 28, 40, 41, 77, 78 SA/NSA/Sub6</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Speed</td>
-												<td class="nfo">HSPA, LTE-A, 5G</td>
-											</tr>
-									
-										</tbody>
-									</table>
-									<table class="table table-bordered custom-table table-hover mb-2">
-										<tbody>
-											<tr class="spec_table">
-												<th rowspan="2" scope="row">Launch</th>
-												<td class="ttl">Announced</td>
-												<td class="nfo">2023, June 06</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Status</td>
-												<td class="nfo" >Available. Released 2023, June 13</td>
-											</tr>									
-										</tbody>
-									</table>
-									<table class="table table-bordered custom-table table-hover mb-2">
-										<tbody>
-											<tr class="spec_table">
-												<th rowspan="4" scope="row">Body</th>
-												<td class="ttl">Dimensions</td>
-												<td class="nfo">164.9 x 77.3 x 8.4 mm (6.49 x 3.04 x 0.33 in)</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Weight</td>
-												<td class="nfo">199 g (7.02 oz)</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Build</td>
-												<td class="nfo">Glass front, plastic back, plastic frame</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Sim</td>
-												<td class="nfo">Hybrid Dual SIM (Nano-SIM, dual stand-by)</td>
-											</tr>									
-										</tbody>
-									</table>
-									<table class="table table-bordered custom-table table-hover mb-2">
-										<tbody>
-											<tr class="spec_table">
-												<th rowspan="3" scope="row">Display</th>
-												<td class="ttl">Type</td>
-												<td class="nfo">Super AMOLED Plus, 120Hz</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Size</td>
-												<td class="nfo">6.7 inches, 108.4 cm2 (~85.0% screen-to-body ratio)</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Resulation</td>
-												<td class="nfo">1080 x 2400 pixels, 20:9 ratio (~393 ppi density)</td>
-											</tr>								
-										</tbody>
-									</table>
-									<table class="table table-bordered custom-table table-hover mb-2">
-										<tbody>
-											<tr class="spec_table">
-												<th rowspan="4" scope="row">Platform</th>
-												<td class="ttl">Os</td>
-												<td class="nfo">Android 13, One UI 5.1</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Chipset</td>
-												<td class="nfo">Exynos 1380 (5 nm)</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">CPU</td>
-												<td class="nfo">Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)</td>
-											</tr>	
-											<tr class="spec_table">
-												<td class="ttl">GPU</td>
-												<td class="nfo">Mali-G68 MP5</td>
-											</tr>								
-										</tbody>
-									</table>
-									<table class="table table-bordered custom-table table-hover mb-2">
-										<tbody>
-											<tr class="spec_table">
-												<th rowspan="2" scope="row">Memory</th>
-												<td class="ttl">Card Slot</td>
-												<td class="nfo">microSDXC (uses shared SIM slot)</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Internal</td>
-												<td class="nfo">256GB 8GB RAM</td>
-											</tr>								
-										</tbody>
-									</table>
-									<table class="table table-bordered custom-table table-hover mb-2">
-										<tbody>
-											<tr class="spec_table">
-												<th rowspan="3" scope="row">Main Camera</th>
-												<td class="ttl">Tripple</td>
-												<td class="nfo">108 MP, f/1.8, (wide), PDAF, OIS <br>
-													8 MP, f/2.2, (ultrawide), 1/4", 1.12µm <br>
-													2 MP, f/2.4, (macro)</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Feature</td>
-												<td class="nfo">LED flash, panorama, HDR</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Video</td>
-												<td class="nfo">4K@30fps, 1080p@30/60fps</td>
-											</tr>								
-										</tbody>
-									</table>
-									<table class="table table-bordered custom-table table-hover mb-2">
-										<tbody>
-											<tr class="spec_table">
-												<th rowspan="2" scope="row">Selfie camera</th>
-												<td class="ttl">Single</td>
-												<td class="nfo">32 MP, f/2.2, 26mm (wide), 1/2.8", 0.8µm</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">Video</td>
-												<td class="nfo">4K@30fps, 1080p@30fps</td>
-											</tr>							
-										</tbody>
-									</table>
-									<table class="table table-bordered custom-table table-hover mb-2">
-										<tbody>
-											<tr class="spec_table">
-												<th rowspan="2" scope="row">Sound</th>
-												<td class="ttl">Loudspeaker</td>
-												<td class="nfo">Yes</td>
-											</tr>
-											<tr class="spec_table">
-												<td class="ttl">3.5mm jack</td>
-												<td class="nfo">No</td>
-											</tr>							
-										</tbody>
-										</table>
-										<table class="table table-bordered custom-table table-hover mb-2">
-											<tbody>
-												<tr class="spec_table">
-													<th rowspan="6" scope="row">Comms</th>
-													<td class="ttl">WLAN</td>
-													<td class="nfo">Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct</td>
-												</tr>
-												<tr class="spec_table">
-													<td class="ttl">Bluetooth</td>
-													<td class="nfo">5.3, A2DP, LE</td>
-												</tr>
-												<tr class="spec_table">
-													<td class="ttl">Positioning</td>
-													<td class="nfo">GPS, GLONASS, GALILEO, BDS, QZSS, NavIC</td>
-												</tr>
-												<tr class="spec_table">
-													<td class="ttl">NFC</td>
-													<td class="nfo">Yes</td>
-												</tr>
-												<tr class="spec_table">
-													<td class="ttl">Radio</td>
-													<td class="nfo">No</td>
-												</tr>
-												<tr class="spec_table">
-													<td class="ttl">USB</td>
-													<td class="nfo">USB Type-C 2.0, OTG</td>
-												</tr>							
-											</tbody>
-										</table>
-										<table class="table table-bordered custom-table table-hover mb-2">
-											<tbody>
-												<tr class="spec_table">
-													<th rowspan="1" scope="row">Features</th>
-													<td class="ttl">Sensor</td>
-													<td class="nfo">Fingerprint (side-mounted), accelerometer, gyro, proximity, compass</td>
-												</tr>				
-											</tbody>
-										</table>
-										<table class="table table-bordered custom-table table-hover mb-2">
-											<tbody>
-												<tr class="spec_table">
-													<th rowspan="2" scope="row">Battery</th>
-													<td class="ttl">Type</td>
-													<td class="nfo">Li-Po 6000 mAh, non-removable</td>
-												</tr>	
-												<tr class="spec_table">
-													<td class="ttl">Charging</td>
-													<td class="nfo">Unspecified charging speed</td>
-												</tr>				
-											</tbody>
-										</table>
-										<table class="table table-bordered custom-table table-hover mb-2">
-											<tbody>
-												<tr class="spec_table">
-													<th rowspan="4" scope="row">Misc</th>
-													<td class="ttl">Color</td>
-													<td class="nfo">Meteor Blue, Stardust Silver</td>
-												</tr>	
-												<tr class="spec_table">
-													<td class="ttl">Model</td>
-													<td class="nfo">SM-E546B, SM-E546B/DS</td>
-												</tr>	
-												<tr class="spec_table">
-													<td class="ttl">SAR</td>
-													<td class="nfo">1.25 W/kg (head)</td>
-												</tr>	
-												<tr class="spec_table">
-													<td class="ttl">Price</td>
-													<td class="nfo">About 340 EUR</td>
-												</tr>					
-											</tbody>
-										</table>
-								</div>
-							</div>
-							<!-- pd description end -->
-						</div>
+				<div class="row ">
+					<div class="col-lg-8">
+						<h2 class="page_title">5 Important Things to Look for When Buying a New Laptop.</h2>
 					</div>
 				</div>
 			</div>
-		</article>
-		<!-- product description area end -->
+		</section>
+		<!-- breadcrumb section end -->
 
-		<!-- featured product -->
-		<div class="mobozone_featured_product section_gap section_gap_bottom_decrease_20">
-			<div class="container">
-				<div class="row d-flex justify-content-center">
-					<div class="col-md-6">
-						<div class="section_area text-center">
-							<h2 class="section_title">Featured Product</h2>
-							<p class="sub_title">Choose your product from Product</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section area -->
-				<div class="row grid_container">
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-							<div class="discount_product">
-								<span>50% off</span>
-							</div>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
+		<!-- single post area -->
+		<div class="post_single_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- single post area -->
+                        <div class="single_post">
+                            <img src="assets/img/post_1.jpg" alt="">
+                            <span class="img_cap img_credit">Photo source: <a href="#">pexels.com</a></span>
+                            <p>Buying a new laptop is a not an easy adventure since there are a vast variety of laptops in the market. This just makes it confusing for people to choose the best one for themselves. There are way too many options to choose from. We are trying to simplify this process for people by giving them a set of criteria, some basic things other than budget, which everyone should think about before buying a new device. Given below are a few of those important things.
+                            </p>
+                            <h3 class="content_block">1. Size</h3>
+                            <img src="assets/img/post_2.jpg" alt="">
+                            <span class="img_cap img_credit">Photo source: <a href="#">pexels.com</a></span>
+                            <p>Laptops vary in size from 12 inches to 17 inches. However, it all depends on what your usage of the device is. Therefore, picking an ideal size is important. Devices ranging from 12 to 14 inches are portable apart from being thinner and lighter than the others.
+                            <br>
+                            These include EliteBooks and Ultrabooks. Traditional Notebooks are around 15.6 inches, which makes them a good blend of portability and power for you. Convertible devices can turn into a tablet as the keyboard either detaches or folds. Some also have the option of touch screens. These devices are available in almost all brands, such as HP, DELL, ASUS, and LENOVO.</p>
+                            <h3 class="content_block">2. CPU</h3>
+                            <img src="assets/img/post_3.jpg" alt="">
+                            <span class="img_cap img_credit">Photo source: <a href="#">pexels.com</a></span>
+                            <p>Processing speed is another important factor when looking for a new laptop. Most devices are equipped with Intel's Core Based CPU'S, such as i3, i5, i7 and i9 series. You can look out for one according to your need. The i3 series of laptops have enough power to perform all basic tasks.
+                            <br>
+                            But the i5 processor is mainly found in most of the high-end laptops. i7 is for people who require the best performance from their machines. On the other hand, the i9's are even more powerful than i7's.</p>
+                            <h3 class="content_block">3. RAM</h3>
+                            <img src="assets/img/post_4.jpg" alt="">
+                            <span class="img_cap img_credit">Photo source: <a href="#">pexels.com</a></span>
+                            <p>You can always upgrade the RAM of your new laptop. Almost all devices have a minimum RAM of 4GB. However, if your usage involves heavier applications, you should consider at least 8GB or 16GB of RAM.</p>
+                            <h3 class="content_block">4. Storage</h3>
+                            <img src="assets/img/post_5.jpg" alt="">
+                            <span class="img_cap img_credit">Photo source: <a href="#">pexels.com</a></span>
+                            <p>Another important thing to look for when buying a new laptop is its storage, as nobody would want the storage space of their device to run out. Previously, hard drives were used in many laptops, but today's machines are equipped with Solid State Drives (SSD's).
+                            <br>
+                            SSD's can increase the overall performance of the device, as they offer higher speed. They can load data much faster during the system boot up. Therefore, if you're searching for a new laptop, try to look for the devices that come with SSD's.</p>
+                            <h3 class="content_block">5. Other Things to consider</h3>
+                            <img src="assets/img/post_6.jpg" alt="">
+                            <span class="img_cap img_credit">Photo source: <a href="#">pexels.com</a></span>
+                            <p>When searching for a new laptop, you should also look for other factors, such as battery time, display quality, keyboard features and Build Quality, just to name a few. Such features are add-ons in your search of an ideal laptop.</p>
+
+                            <h3 class="content_block">The Takeaway</h3>
+                            <p>You may get confused and find it difficult to reach a decision. However, if you follow the simple tips given above, it will make the whole process of buying a new laptop much simpler. Hopefully, now, you will be able to get the best device to meet your needs.
+                            <br>
+                            If you are looking for useful guides to buy different types of gadgets, such as computers and laptops, we suggest that you check out GadgetGuide at <a href=" https://gadgetguide.in">https://gadgetguide.in/</a>
+                            <br>
+                            Article Source: <a href="https://EzineArticles.com/expert/Dong_Wong/2659905">https://EzineArticles.com</a></p>
+                        </div>
+                        <!-- single post area -->
+                        <!-- comment area -->
+                        <div class="comment_area">
+                            <div class="comment_count">
+                                <h3>3 Comments.</h3>
+                            </div>
+                            <ul class="comment_list">
+                                <!-- single comment -->
+                                <li class="comment-area">
+                                    <img src="assets/img/author_1.jpg" alt="">
+                                    <div class="commentor-area">
+                                    <a href="#">Mahidul Mukto</a>
+                                    <span class="comment_time d-block">10 july 2020, 03.20 PM</span>
+                                    <p class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quia pariatur consectetur autem, temporibus aperiam molestiae debitis reiciendis, praesentium asperiores deleniti illum in alias vitae.</p>
+                                        <div class="post-reaction">
+                                            <ul>
+                                                <li><a href="#">Repost</a></li>
+                                                <li><a href="#">Reply</a></li>
+                                                <li>35 minutes ago.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- single comment -->
+
+                                <!-- single comment -->
+                                <li class="comment-area reply">
+                                    <img src="assets/img/author_1.jpg" alt="">
+                                    <div class="commentor-area">
+                                    <a href="#">Tectical Tech</a>
+                                    <span class="comment_time d-block">10 july 2020, 03.20 PM</span>
+                                    <p class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quia pariatur consectetur autem, temporibus aperiam molestiae debitis reiciendis, praesentium asperiores deleniti illum in alias vitae.</p>
+                                        <div class="post-reaction">
+                                            <ul>
+                                                <li><a href="#">Repost</a></li>
+                                                <li><a href="#">Reply</a></li>
+                                                <li>35 minutes ago.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- single comment -->
+
+                                <!-- single comment -->
+                                <li class="comment-area">
+                                    <img src="assets/img/author_1.jpg" alt="">
+                                    <div class="commentor-area">
+                                    <a href="#">Mahidul Mukto</a>
+                                    <span class="comment_time d-block">10 july 2020, 03.20 PM</span>
+                                    <p class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quia pariatur consectetur autem, temporibus aperiam molestiae debitis reiciendis, praesentium asperiores deleniti illum in alias vitae.</p>
+                                        <div class="post-reaction">
+                                            <ul>
+                                                <li><a href="#">Repost</a></li>
+                                                <li><a href="#">Reply</a></li>
+                                                <li>35 minutes ago.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- single comment -->
+                                <!-- single comment -->
+                                <li class="comment-area reply">
+                                    <img src="assets/img/author_1.jpg" alt="">
+                                    <div class="commentor-area">
+                                    <a href="#">Tectical Tech</a>
+                                    <span class="comment_time d-block">10 july 2020, 03.20 PM</span>
+                                    <p class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quia pariatur consectetur autem, temporibus aperiam molestiae debitis reiciendis, praesentium asperiores deleniti illum in alias vitae.</p>
+                                        <div class="post-reaction">
+                                            <ul>
+                                                <li><a href="#">Repost</a></li>
+                                                <li><a href="#">Reply</a></li>
+                                                <li>35 minutes ago.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- single comment -->
+                            </ul>
+                        </div>
+                        <!-- comment area -->
+                        <!-- comment box -->
+                        <div class="comment_box">
+                            <h4>Write Your Opinion.</h4>
+                            <form action="#" method="post">
+                                <label for="message">Write Your Message</label>
+                                <textarea id="message" name="message" placeholder="Enter Your Comment" required=""></textarea>
+                                <label for="name">Name*</label>
+                                <input type="text" name="name" id="name" placeholder="Your Name *">
+                                <label for="email">Email*</label>
+                                <input type="email" name="email" id="email" placeholder="Your Email *">
+                                <label for="website">Website</label>
+                                <input type="url" name="website" id="website" placeholder="Your Website">
+                                <button type="submit" class="btn btn-primary">Post Comment</button>
+                            </form>
+                        </div>
+                        <!-- comment box -->
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="sidebar right_sidebar">
+                            <!-- search widget -->
+                            <div id="search_widget" class="widget widget_search">
+                                <h4 class="widget-title">Search anything</h4>
+                                <form role="search" method="get" class="searchform" action="#">
+                                    <input type="text" class="text" placeholder="Search anything..." name="s">
+                                </form>
+                            </div>
+                            <!-- search widget -->
+                            <!-- recent post -->
+                            <div id="recent_post" class="widget widget_recent_post">
+                                <h4 class="widget-title">Recent Post</h4>
+                                <ul>
+                                    <li>
+                                        <a href="single-blog.html"><img src="assets/img/blog_1.jpg" alt="post-img"></a>
+                                        <span class="post-date">20 April,2018</span>
+                                        <a href="single-blog.html" class="clearfix">Successful Growth In Business 2018</a>
+                                    </li>
+                                    <li>
+                                        <a href="single.html"><img src="assets/img/blog_2.jpg" alt="post-img"></a>
+                                        <span class="post-date">20 April,2018</span>
+                                        <a href="single.html" class="clearfix">Successful Growth In Business 2018</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="single.html"><img src="assets/img/blog_3.jpg" alt="post-img"></a>
+                                        <span class="post-date">20 April,2018</span>
+                                        <a href="single.html" class="clearfix">Successful Growth In Business 2018</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- recent post -->
+                            <!-- category -->
+                            <div id="category" class="widget widget_category">
+                                <h4 class="widget-title">Category</h4>
+                                <ul>
+                                    <li><a href="#">ACF</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#">PHP</a></li>
+                                </ul>
+                            </div>
+                            <!-- category -->
+                            <!-- category -->
+                            <div id="tags" class="widget widget_tags">
+                                <h4 class="widget-title">Tags</h4>
+                                <div class="tagcloud">
+                                    <a href="#" class="tag-cloud-link">Business</a>
+                                    <a href="#" class="tag-cloud-link">Consulting</a>
+                                    <a href="#" class="tag-cloud-link">Financial Support</a>
+                                    <a href="#" class="tag-cloud-link">SEO</a>
+                                    <a href="#" class="tag-cloud-link">Marketing</a>
+                                    <a href="#" class="tag-cloud-link">Design</a>
+                                    <a href="#" class="tag-cloud-link">Strategies</a>
+                                    <a href="#" class="tag-cloud-link">Developing</a>
+                                </div>
+                            </div>
+                            <!-- category -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- single post area end -->
 
 
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-					<!-- single item -->
-					<div class="single_product_item_box">
-						<div class="single_product_img">
-							<a href="">
-							<img src="assets/img/pd_1.png" alt="product img">
-							</a>
-						</div>
-						<div class="single_product_meta">
-							<a class="product_name" href="">Galaxy S22 Ultra</a>
-							<ul>
-								<li>₹32999</li>
-								<li class="del"><del>₹12999</del></li>
-							</ul>
-							<span class="product_total_discount">Save ₹12999</span>
-						</div>
-					</div>
-					<!-- single item -->
-				</div>
-			</div>
-		</div>
-		<!-- featured product end -->
+
 
 	</main>
 
@@ -772,9 +372,15 @@
 						</div>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="copyright text-center border-top py-4 mt-4">
+							<p class="text-white m-0">All right Reserved &copy; Mobozone 2023. </p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
 	</footer>
 
 	<!-- all script here -->

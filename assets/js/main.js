@@ -2,6 +2,27 @@
     "use strict";
 
 
+    $(document).ready(function(){
+
+      $('.search').on('click', function(){
+        // $('.search_box').toggleClass('d-block');
+        $('.search_box').slideToggle('slow');
+      });
+
+      $('.profile').on('click', function(){
+        // $('.user_profile').toggleClass('d-block');
+        $('.user_profile').slideToggle('slow');
+      });
+      
+      $('.mobile_menu').on('click', function(){
+        $('.site_mobile_menu').slideToggle('slow');
+        
+      });
+
+
+    });
+
+
       $(".slider").owlCarousel({
         items: 1,
         loop:true,
